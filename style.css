@@ -732,5 +732,15 @@ text-align: justify;
 
     /* background-color: #fc096a; */
 }
+#page1{
+    height: 120vh;
+    width: 100%;
+
+    padding-top: 128px;
+
+    /* display: block; */
+    /* background-color: aquamarine; */
+    
+}
 
 }

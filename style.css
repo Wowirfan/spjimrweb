@@ -665,7 +665,7 @@ text-align: justify;
     padding-top: 0%;
     margin-left: 0%;
     height: 0%;
-    ofer
+    overflow: hidden;
     display: none;
     /* border-right: 1px solid white; */
     /* align-items: center; */

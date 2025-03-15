@@ -690,7 +690,7 @@ text-align: justify;
 }
 #float-button{
     display: flex;
-    background-color: #e06fab;
+    /* background-color: #e06fab; */
     width: 100%;
     margin-top: 3%;
     height: 9vh;

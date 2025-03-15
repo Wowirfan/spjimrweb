@@ -569,8 +569,8 @@ text-align: justify;
 #logo {
     align-items: start;
     margin-top: 15px;
-    height: 100px;
-width: 270px;
+    height: 1px;
+width: 250px;
     margin-left: 0px;
     display: block;
     justify-content: start;

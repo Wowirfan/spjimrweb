@@ -713,5 +713,10 @@ text-align: justify;
     height: 100%;
     background-color: #f58220;
 }
+#pg2img img{
+    max-width: 408;
+    height: 234px;
+    
+}
 
 }

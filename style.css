@@ -772,7 +772,7 @@ text-align: justify;
 }
 #pg2text{
 max-width: 100%;
-margin-top: ;
+margin-top: 0;
 font-family: 'Nunito Sans',sans-serif;
 font-size: 14px;
 /* position: relative; */

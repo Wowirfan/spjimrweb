@@ -567,7 +567,7 @@ text-align: justify;
         background-color:white;
 }
 #logo {
-    align-items: center;
+    align-items: s;
     margin-top: 15px;
     height: 110px;
 width: 300px;

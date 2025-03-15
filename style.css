@@ -566,5 +566,14 @@ text-align: justify;
         z-index: 9999;
         background-color:white;
 }
+#logo {
+    align-items: center;
+    margin-top: 15px;
+    height: 94.95px;
+width: 250px;
+    margin-left: 20px;
+    display: block;
+    justify-content: center;
+}
 
 }

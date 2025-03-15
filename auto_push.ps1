@@ -4,4 +4,3 @@ while ($true) {
     git push origin master
     Start-Sleep -Seconds 5
 } 
-@

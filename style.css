@@ -681,7 +681,7 @@ text-align: justify;
     display: flex;
     flex-direction: column;
     background-color: darkblue;
-    min-width: 100%;
+    min-width: 120%;
     position: absolute;
     height: 100%;
 }

@@ -584,7 +584,7 @@ width: 300px;
     display: none;
 }
 .navbar-nav{
-    display: flex;
+    display: none;
     gap: 11px;
     margin-top: 20px;
 

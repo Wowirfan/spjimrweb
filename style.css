@@ -561,7 +561,7 @@ text-align: justify;
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 5px) {
     #nav{
         height: 80px;
         width: 100%;

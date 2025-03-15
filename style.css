@@ -407,7 +407,7 @@ align-items: center;
 }
 #pg2text{
 max-width: 100%;
-margin-top: 3rem;
+margin-top: 0;
 font-family: 'Nunito Sans',sans-serif;
 font-size: 14px;
 /* position: relative; */

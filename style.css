@@ -385,7 +385,7 @@ button {
     height:80vh;
     margin-top: 5vh;
     
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     max-width: 100%;
 }
 #pg2img{

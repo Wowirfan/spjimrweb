@@ -581,7 +581,7 @@ width: 300px;
     margin-left: 360px;
     margin-top: 10px;
     /* max-width: 100%; */
-    display: block;
+    display: none;
 }
 
 

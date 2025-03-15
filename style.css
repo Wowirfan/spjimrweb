@@ -783,7 +783,7 @@ text-align: justify;
 }
 body{
     display: grid;
-    place-items: cen;
+    place-items: center;
 }
 
 }

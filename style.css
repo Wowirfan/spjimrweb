@@ -561,7 +561,7 @@ text-align: justify;
 @media only screen and (max-width: 768px) {
     #nav{
         height: 150.39px;
-        width: 100%;
+        max-width: 100%;
         position: fixed;
         z-index: 9999;
         background-color:white;

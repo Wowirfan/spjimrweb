@@ -573,7 +573,7 @@ text-align: justify;
 width: 300px;
     margin-left: 20px;
     display: block;
-    justify-content: ;
+    justify-content: start;
 }
 #logo-right {
     height: 55.31px;

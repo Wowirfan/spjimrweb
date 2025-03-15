@@ -712,7 +712,7 @@ text-align: justify;
     background-color: rgb(255, 255, 255);
 }
 #rightbtn{
-    width: 130;
+    width: 130px;
     font-size: 5px;
     text-align: center;
     padding-top: 10px;
@@ -720,7 +720,7 @@ text-align: justify;
     font-family: 'Nunito Sans',sans-serif;
     margin-left: 3%;
 
-    height: 50;
+    height: 50px;
     background-color: #f58220;
 }
 #pg2img img{

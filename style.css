@@ -575,5 +575,14 @@ width: 300px;
     display: block;
     justify-content: center;
 }
+#logo-right {
+    height: 55.31px;
+    width: 425;
+    margin-left: 360px;
+    margin-top: 10px;
+    /* max-width: 100%; */
+    display: block;
+}
+
 
 }

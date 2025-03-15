@@ -782,8 +782,8 @@ margin-left: 5%;
 text-align: justify;
 }
 body{
-    display: grid;
-    place-items: center;
+    /* display: grid;
+    place-items: center; */
 }
 #pg2img{
     height: 243px;

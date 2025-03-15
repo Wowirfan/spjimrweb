@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now for PGDM At SPJIMR</title>
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEVHcEzsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiHsfiFZPsg3AAAAEnRSTlMAplkj2/9sTucwP30Lyhe8+IyP5IuZAAAAx0lEQVR4AXXQQQIEERAEwYQCGvz/s3sfNo4AyR/O80+IStxSBrIkzyXLQ5JK5RKkRpccNyvqdKnzMORIj+vChK6IlzJfq1K1rb7mqipFjf36wogcHZY67d7YpgpJjrSvkpGlOhXx+k6acpVjaDZdUdNmiCRv+w4+TlBCi6HDx9R0BSfrj6i+ID+VpgoXd7JwhaFQ7U63jik3Jfbko9mep1AiS4Evi2yfFZIct9o20aHBSz5B5rbxYubcVOMPF9ziH0OTv+zw9QPH2Acc2FZt8gAAAABJRU5ErkJggg==">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body> 
+    <button id="applybuttonmain">Apply</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script>
+    // Button Jab Page Load Ho Tab Neeche Se Aaye
+    gsap.from("#applybuttonmain", {
+        y: 100, /* Neeche se aayega */
+        opacity: 0,
+        duration: 1.5,
+        ease: "power4.out"
+    });
+
+    // GSAP Timeline for Drop & Bounce Effect
+    function startBounce() {
+        let tl = gsap.timeline({ repeat: -1, repeatDelay: 1.3 }); // Har 2 sec ke baad repeat hoga
+        
+        tl.to("#applybuttonmain", { 
+            y: -17, /* Pehle upar jayega */
+            duration: 0.8, 
+            ease: "power1.out" 
+        }) 
+        .to("#applybuttonmain", { 
+            y: 3, /* Neeche girayega */
+            duration: 0.9, 
+            ease: "bounce.out" /* Neeche girne par bounce effect */
+        });
+    }
+
+    startBounce(); // Bounce Animation Start Karo
+</script>
+
+
+
+    <div id="nav">
+        <img id="logo" src="https://www.spjimr.org/pgdm-admissions/images/logo.svg" alt="">
+        <div id="icons">
+            <img id="logo-right" src="https://www.spjimr.org/pgdm-admissions/images/naac-top-logo.svg" alt="">
+            <div class="navbar-nav">
+                <div class="nav-item"><a href="#">About SPJIMR</a></div>
+                <div class="line"></div>
+                <div class="nav-item"><a href="#">Programmes Offered</a></div>
+                <div class="line"></div>
+                <div class="nav-item"><a href="#">Why SPJIMR</a></div>
+                <div class="line"></div>
+                <div class="nav-item"><a href="#">Placements</a></div>
+                <div class="line"></div>
+                <div class="nav-item"><a href="#">Admission Process</a></div>
+                <div class="line"></div>
+                <div class="nav-item"><a href="#">Life @ SPJIMR</a></div>
+                <div class="line"></div>
+                <div class="nav-item"><a href="#">Notable Alumni</a></div>
+                <div class="line"></div>
+                <div class="nav-item"><a href="#">FAQs</a></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="main">
+        
+        <div id="page1">
+            <div id="pg1bnrimg">
+                <img src="https://www.spjimr.org/pgdm-admissions/images/banner.jpg" alt="Banner Image ">
+            </div>
+            <div id="float">
+                <div id="float-left">
+                    <div id="float-header">
+                        <h2>Nurturing</h2>
+                        <div id="float-headerh2">
+                            <h2>Next-Gen</h2>
+                        </div>
+                    </div>
+                    <div id="float-body">
+                        <h2>Global Business
+                            leader</h2>
+                    </div>
+                
+                </div>
+                <div id="vrline"></div>
+                <div id="float-right">
+                    <h4>Admissions Open 2025-2027</h4>
+                    <div id="float-button">
+                        <div id="leftbtn"><h1>PGDM</h1></div>
+                        <div id="rightbtn"><h1>PGDM(BM)</h1></div>
+                    </div>
+                    <div id="applytxt">
+                        2-year full-time residential programme
+                    </div>
+                    <div id="sprline"></div>
+                    <div id="applastdt"><h4>Last Date To Apply</h4></div>
+                    <div id="appdate"><h4>November 22, 2024</h4></div>
+
+                </div>
+            </div>
+            <div id="form">
+                <h1>enquire now</h1>
+                <div id="name">
+                    <input id="frm" type="text" placeholder="    First Name *"></input>
+                    <input type="text" placeholder="   Second Name *"></input>
+                </div>
+                <div id="email">
+                    <input id="frm" type="text" placeholder="    Enter Email Address *" ></input>
+                </div>
+                <div id="number">
+                    <label for="country"></label>
+                    <select id="country frm" name="country" onchange="updateCode()">
+                        <option value="AF">Afghanistan (+93)</option>
+                        <option value="AL">Albania (+355)</option>
+                        <option value="DZ">Algeria (+213)</option>
+                        <option value="AS">American Samoa (+1)</option>
+                        <option value="AD">Andorra (+376)</option>
+                        <option value="AO">Angola (+244)</option>
+                        <option value="AR">Argentina (+54)</option>
+                        <option value="AM">Armenia (+374)</option>
+                        <option value="AU">Australia (+61)</option>
+                        <option value="AT">Austria (+43)</option>
+                        <option value="AZ">Azerbaijan (+994)</option>
+                        <option value="BH">Bahrain (+973)</option>
+                        <option value="BD">Bangladesh (+880)</option>
+                        <option value="BY">Belarus (+375)</option>
+                        <option value="BE">Belgium (+32)</option>
+                        <option value="BZ">Belize (+501)</option>
+                        <option value="BJ">Benin (+229)</option>
+                        <option value="BT">Bhutan (+975)</option>
+                        <option value="BO">Bolivia (+591)</option>
+                        <option value="BA">Bosnia and Herzegovina (+387)</option>
+                        <option value="BR">Brazil (+55)</option>
+                        <option value="BG">Bulgaria (+359)</option>
+                        <option value="KH">Cambodia (+855)</option>
+                        <option value="CM">Cameroon (+237)</option>
+                        <option value="CA">Canada (+1)</option>
+                        <option value="CN">China (+86)</option>
+                        <option value="CO">Colombia (+57)</option>
+                        <option value="HR">Croatia (+385)</option>
+                        <option value="CU">Cuba (+53)</option>
+                        <option value="CY">Cyprus (+357)</option>
+                        <option value="CZ">Czech Republic (+420)</option>
+                        <option value="DK">Denmark (+45)</option>
+                        <option value="EG">Egypt (+20)</option>
+                        <option value="FI">Finland (+358)</option>
+                        <option value="FR">France (+33)</option>
+                        <option value="DE">Germany (+49)</option>
+                        <option value="GR">Greece (+30)</option>
+                        <option value="IN" selected>India (+91)</option> <!-- India Default -->
+                        <option value="ID">Indonesia (+62)</option>
+                        <option value="IR">Iran (+98)</option>
+                        <option value="IQ">Iraq (+964)</option>
+                        <option value="IE">Ireland (+353)</option>
+                        <option value="IT">Italy (+39)</option>
+                        <option value="JP">Japan (+81)</option>
+                        <option value="JO">Jordan (+962)</option>
+                        <option value="KZ">Kazakhstan (+7)</option>
+                        <option value="KE">Kenya (+254)</option>
+                        <option value="KW">Kuwait (+965)</option>
+                        <option value="MY">Malaysia (+60)</option>
+                        <option value="MV">Maldives (+960)</option>
+                        <option value="MX">Mexico (+52)</option>
+                        <option value="MA">Morocco (+212)</option>
+                        <option value="NP">Nepal (+977)</option>
+                        <option value="NL">Netherlands (+31)</option>
+                        <option value="NZ">New Zealand (+64)</option>
+                        <option value="NG">Nigeria (+234)</option>
+                        <option value="KP">North Korea (+850)</option>
+                        <option value="NO">Norway (+47)</option>
+                        <option value="PK">Pakistan (+92)</option>
+                        <option value="PH">Philippines (+63)</option>
+                        <option value="PL">Poland (+48)</option>
+                        <option value="PT">Portugal (+351)</option>
+                        <option value="QA">Qatar (+974)</option>
+                        <option value="RO">Romania (+40)</option>
+                        <option value="RU">Russia (+7)</option>
+                        <option value="SA">Saudi Arabia (+966)</option>
+                        <option value="SG">Singapore (+65)</option>
+                        <option value="ZA">South Africa (+27)</option>
+                        <option value="KR">South Korea (+82)</option>
+                        <option value="ES">Spain (+34)</option>
+                        <option value="SE">Sweden (+46)</option>
+                        <option value="CH">Switzerland (+41)</option>
+                        <option value="TH">Thailand (+66)</option>
+                        <option value="TR">Turkey (+90)</option>
+                        <option value="UA">Ukraine (+380)</option>
+                        <option value="AE">United Arab Emirates (+971)</option>
+                        <option value="GB">United Kingdom (+44)</option>
+                        <option value="US">United States (+1)</option>
+                        <option value="VN">Vietnam (+84)</option>
+                        <option value="YE">Yemen (+967)</option>
+                    </select>
+                   
+                    
+                    <input type="tel" placeholder="      Enter Mobile Number *">
+                </div>
+                <div id="statencity">
+                    <label for="state"></label>
+                    <select id="state" onchange="updateCities()">
+                        <option value="">Select State *</option>
+                        <option value="JammuKashmir">Jammu & Kashmir</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                    </select>
+                
+                    <label for="city"></label>
+                    <select id="city">
+                        <option value="">Select City *</option>
+                    </select>
+                </div>
+                <div class="captcha-container">
+                    <div id="captcha-box"></div> <!-- Captcha Left -->
+                    <input type="text" id="captcha-input" placeholder="Enter Captcha"> <!-- Input Right -->
+                </div>
+                <div id="check">
+                    <input type="checkbox">
+                    I agree to receive information from SPJIMR
+                <!-- <h6>I agree to receive information</h6> -->
+                </div>
+                
+                <button onclick="validateCaptcha()">Submit</button> <!-- Button Below -->
+            
+                <p id="message"></p>
+            
+                
+                        </div>
+            </div>
+            <div id="top-rank">
+                <div id="toprkheader">Join the Top-Ranked PGDM</div>
+                <div id="bodytxt">Journey at SPJIMR!</div>
+            </div>
+            <div id="valueofcompany">
+                <div id="noone"><h2>#1</h2><h5>#1 Business School in India (Financial Times MiM 2024 Ranking)</h5></div>
+                <div id="valueline"></div>
+                <div id="noone"><h2>43</h2><h5>Years of Legacy</h5></div>
+                <div id="valueline"></div>
+                <div id="noone"><h2>INR 81 LPA</h2><h5>Highest Salary</h5></div>
+                <div id="valueline"></div>
+                <div id="noone"><h2>72 +</h2><h5>Companies</h5></div>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="page2hdr"><h1>About SPJIMR</h1>
+            <h3>Top Business School in India</h3></div>
+            <div id="imgntxt">
+                <div id="sqimg"><div id="qcircle"></div><div id="sqr"></div><div id="pg2img">
+                    <img src="https://www.spjimr.org/pgdm-admissions/images/about-Thumb.webp" alt=""></div></div>
+                <div id="pg2text"><p>
+                    S P. Jain Institute of Management and Research (SPJIMR) was inaugurated in 1981 by the British Prime Minister, the Late Hon. Margaret Thatcher. SPJIMR is a prestigious business school located in the heart of Mumbai and is acknowledged as a responsible member of the Bhartiya Vidya Bhavan.
+                </p>
+                    <br>
+                    <p>
+                    It is known for the thousands of accomplished and sensitized participants it has sent out into the world for over 43 years—participants who are committed to making a difference. As a self-reliant institution, SPJIMR seeks operational freedom and encourages an entrepreneurial, agile, and flexible organizational culture by influencing practice and promoting value-based growth</p></div>
+            </div>
+        </div>
+        <div id="page3"></div>
+        <div id="page4"></div>
+        <div id="page5"></div>
+        <div id="page6"></div>
+        <div id="page7"></div>
+    </div>  
+        
+<script src="script.js"></script>
+</body>
+</html>

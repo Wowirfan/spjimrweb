@@ -558,5 +558,5 @@ text-align: justify;
 }
 
 
-@media only screen and (maxwi)
+@media only screen and (max-width: 600px)
 

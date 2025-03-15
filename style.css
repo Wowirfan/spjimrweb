@@ -622,7 +622,7 @@ text-align: justify;
     margin-top: 5vh;
     
     justify-content: space-evenly;
-    width: %;
+    width: 100%;
 }
 #float{
     background-color: #531F75;

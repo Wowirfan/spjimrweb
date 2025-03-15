@@ -785,5 +785,16 @@ body{
     display: grid;
     place-items: center;
 }
-
+#pg2img{
+    height: 243px;
+    background-color: #ffffff;
+    width: 420px;
+    z-index: 999;
+    position: relative;
+    /* position: absolute; */
+    padding-left: 3.5px;
+    padding-top: 5px;
+    align-items: center;
+    /* position: fixed; */
+    }
 }

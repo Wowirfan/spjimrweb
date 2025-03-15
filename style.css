@@ -723,5 +723,14 @@ text-align: justify;
     width: 50px%;
     background-color: #ECECEC;
 }
+#toprkheader{
+    text-align: center;
+    font-size: 28.8px;
+    font-weight: 600;
+    font-family: 'Nunito Sans',sans-serif;
+    color: #531F75;
+
+    /* background-color: #fc096a; */
+}
 
 }

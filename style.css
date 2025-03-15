@@ -624,7 +624,7 @@ text-align: justify;
     z-index: 99;
     position: relative;
     height: 15rem;
-    width: 100rem;
+    width: 100;
     display: flex;
     /* justify-content: center; */
     align-items: center;

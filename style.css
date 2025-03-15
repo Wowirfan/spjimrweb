@@ -391,7 +391,7 @@ button {
 #pg2img{
 height: 243px;
 background-color: #ffffff;
-width: 420px;
+max-width: 420px;
 z-index: 999;
 position: relative;
 /* position: absolute; */
@@ -438,8 +438,8 @@ text-align: justify;
     margin-left: -2vw;
 }
 #pg2img img{
-    width: 408px;
-    minheight: 443px;
+    max-width: 408;
+    height: 234px;
     
 }
 #float-right{

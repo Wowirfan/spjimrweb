@@ -624,7 +624,7 @@ text-align: justify;
     z-index: 99;
     position: relative;
     height: 15rem;
-    max-width: 100%;
+    max-width: 110%;
     display: flex;
     /* justify-content: center; */
     align-items: center;

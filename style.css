@@ -718,5 +718,10 @@ text-align: justify;
     height: 100px;
     
 }
+#page2{
+    height: 77vh;
+    width: 100%;
+    background-color: #ECECEC;
+}
 
 }

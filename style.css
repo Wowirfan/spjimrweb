@@ -280,7 +280,7 @@ width: 250px;
 #check input {
     font-size: 5px;
     height: 18px;
-    max-width: 5%;
+    width: 5%;
     margin-right: 5%;
    
 }
@@ -295,7 +295,7 @@ button {
     background-color: orange;
     color: white;
     border: none;
-    max-width: 92%;
+    width: 92%;
     border-radius: 8px;
     margin-left: 12px;
     cursor: pointer;

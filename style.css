@@ -662,7 +662,7 @@ text-align: justify;
 
 #form{
     height: 30rem;
-    min-width: 100%;
+    min-width: 80%;
     background-color:#8E60BF;
     margin-top: 3vh;
     z-index: 999;

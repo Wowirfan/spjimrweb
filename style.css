@@ -578,7 +578,7 @@ text-align: justify;
 @media (max-width: 440px) {
     #nav{
         height: 100px;
-        width: 100%;
+        width: 95%;
         display: flex;
         position: fixed;
         z-index: 9999;

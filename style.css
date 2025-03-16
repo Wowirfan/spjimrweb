@@ -788,7 +788,7 @@ body{
 #pg2img{
     height: 243px;
     background-color: #ffffff;
-    min-width: 3%;
+    width: 3%;
     z-index: 999;
     position: relative;
     /* position: absolute; */

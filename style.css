@@ -673,7 +673,7 @@ text-align: justify;
     z-index: 999;
     position: absolute;
     margin-left: 0%;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 

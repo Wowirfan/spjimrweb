@@ -810,7 +810,7 @@ text-align: justify;
         background-color: #e66a18;
         /* position: fixed; */
         margin-top: 0vh;
-        dis
+        display: none;
         border-top-right-radius: 200px;
         
         margin-left: -2vw;

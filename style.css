@@ -122,8 +122,8 @@ width: 250px;
     /* justify-content: center; */
     align-items: center;
     margin-left: 90px;
-    margin-top: -500px;
-    margin-bottom: 500px;
+    /* margin-top: -500px; */
+    margin-bottom: 700px;
 }
 #form{
     height: 70vh;

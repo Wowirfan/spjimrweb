@@ -805,11 +805,11 @@ text-align: justify;
     }
     #qcircle{
         height: 0vh;
-        width: 12vw;
+        width: 0vw;
         position: absolute;
         background-color: #e66a18;
         /* position: fixed; */
-        margin-top: -15vh;
+        margin-top: vh;
         border-top-right-radius: 200px;
         
         margin-left: -2vw;

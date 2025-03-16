@@ -584,7 +584,7 @@ text-align: justify;
         z-index: 9999;
         padding-left: 3%;
         justify-content: start;
-        background-color:white;
+        background-color:rgb(160, 91, 91);
 }
 #logo {
     /* align-items: start; */

@@ -764,7 +764,7 @@ text-align: justify;
     /* background-color: #fc096a; */
 }
 #page1{
-    height: 160vh;
+    height: 135vh;
     width: 100%;
     display: flex;
     flex-direction: column;

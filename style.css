@@ -382,7 +382,7 @@ button {
 }
 #imgntxt{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     height:80vh;
     margin-top: 5vh;
     

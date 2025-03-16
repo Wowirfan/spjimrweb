@@ -624,6 +624,7 @@ text-align: justify;
 }
 #imgntxt{
     display: flex;
+    
     height:80vh;
     margin-top: 5vh;
     

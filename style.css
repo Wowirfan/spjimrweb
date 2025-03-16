@@ -758,10 +758,9 @@ text-align: justify;
 #page1{
     height: 120vh;
     width: 100%;
-    
     /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 
     padding-top: 128px;

@@ -367,7 +367,7 @@ button {
 #page2{
     height: 140vh;
     width: 100%;
-    justify-content: ;
+    justify-content: space-evenly;
     background-color: #ECECEC;
 }
 #page2hdr{

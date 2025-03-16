@@ -757,7 +757,8 @@ text-align: justify;
 #page1{
     height: 120vh;
     width: 100%;
-    
+    display: flex;
+    flex
 
     padding-top: 128px;
 

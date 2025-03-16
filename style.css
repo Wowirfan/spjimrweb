@@ -412,10 +412,10 @@ align-items: center;
     /* background-color: brown;  */
 }
 #pg2text{
-width: 40%;
+min-width: 20%;
 padding-top: 13%;
 font-family: 'Nunito Sans',sans-serif;
-font-size:  50px;
+font-size:  px;
 /* position: relative; */
 
 /* background-color: #F58220; */
@@ -448,7 +448,7 @@ text-align: justify;
     margin-left: -2vw;
 }
 #pg2img img{
-    width: 408;
+    width: 408px;
     height: 234px;
     
 }

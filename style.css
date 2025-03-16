@@ -142,7 +142,7 @@ width: 250px;
     font-size: 20px;
 }
 #name {
-    width: 100%;
+    width: %;
     height: 5vh;
     display: flex;
     gap: 1px;

@@ -803,4 +803,15 @@ text-align: justify;
     margin-left: 10px;
     /* position: fixed; */
     }
+    #qcircle{
+        height: 26vh;
+        width: 12vw;
+        position: absolute;
+        background-color: #e66a18;
+        /* position: fixed; */
+        margin-top: -15vh;
+        border-top-right-radius: 200px;
+        
+        margin-left: -2vw;
+    }
 }

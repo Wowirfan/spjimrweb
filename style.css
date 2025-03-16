@@ -83,7 +83,7 @@ width: 250px;
 .line{
     height: 15px;
     margin-top: 3px;
-    max-width: 1px;
+    width: 1px;
     background-color: black;
 }
 #page1{

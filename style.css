@@ -412,7 +412,7 @@ align-items: center;
 }
 #pg2text{
 width: 40%;
-padding-top: ;
+padding-top: 0;
 font-family: 'Nunito Sans',sans-serif;
 font-size:  26px;
 /* position: relative; */
@@ -674,7 +674,7 @@ text-align: justify;
     width: 94%;
     max-width: 500px;
     background-color:#8E60BF;
-    margin-top: 3vh;
+    margin-top: vh;
     z-index: 999;
     position: absolute;
     margin-left: 3%;

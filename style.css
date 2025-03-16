@@ -816,14 +816,14 @@ text-align: justify;
         margin-left: -2vw;
     }
     #sqr{
-        height: 26vh;
-        width: 12vw;
+        height: 0vh;
+        width: 0vw;
         position: absolute;
         background-color: #e66a18;
         /* position: fixed; */
-        margin-top: 22vh;
+        margin-top: 0vh;
         /* border-top-right-radius: 200px; */
         
-        margin-left: -2vw;
+        margin-left: 0vw;
     }
 }

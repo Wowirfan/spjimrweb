@@ -367,7 +367,7 @@ button {
 #page2{
     height: 140vh;
     width: 100%;
-    display: flex;
+    justify-content: ;
     background-color: #ECECEC;
 }
 #page2hdr{

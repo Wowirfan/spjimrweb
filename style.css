@@ -395,7 +395,7 @@ button {
     width: 100%;
 }
 #navmenu{
-    dis
+    display: none;
 }
 #pg2img{
 height: 243px;

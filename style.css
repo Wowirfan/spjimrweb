@@ -415,7 +415,6 @@ width: 40%;
 padding-top: 0%;
 font-family: 'Nunito Sans',sans-serif;
 font-size:  20px;
-margin-top: -50%;
 /* position: relative; */
 
 /* background-color: #F58220; */
@@ -820,7 +819,7 @@ text-align: justify;
     margin-left: 3%;
     align-items: center;
     margin-left: 11%;
-    margin-top: -70%;
+    margin-top: -%;
     /* position: fixed; */
     }
     #qcircle{

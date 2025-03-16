@@ -397,7 +397,7 @@ button {
 #pg2img{
 height: 243px;
 background-color: #ffffff;
-width: 40%;
+width: 420px;
 z-index: 999;
 position: relative;
 /* position: absolute; */
@@ -412,7 +412,7 @@ align-items: center;
     /* background-color: brown;  */
 }
 #pg2text{
-max-width: 40%;
+width: 40%;
 padding-top: 13%;
 font-family: 'Nunito Sans',sans-serif;
 font-size:  50px;

@@ -54,7 +54,7 @@ width: 250px;
 }
 #icons{
     /* height: 85px;
-    max-width: 800;
+    width: 800;
     background-color: greenyellow; */
 }
 #logo-right {
@@ -62,7 +62,7 @@ width: 250px;
     width: 425;
     margin-left: 360px;
     margin-top: 10px;
-    /* max-max-width: 100%; */
+    /* max-width: 100%; */
     display: block;
 }
 
@@ -588,10 +588,10 @@ text-align: justify;
 }
 #logo-right {
     height: 55.31px;
-    max-width: 0;
+    width: 0;
     margin-left: 0px;
     margin-top: 10px;
-    /* max-max-width: 100%; */
+    /* max-width: 100%; */
     display: none;
 }
 .navbar-nav{
@@ -611,7 +611,7 @@ text-align: justify;
     background-color: #e66a18;
 }
 #pg1bnrimg{
-    max-width: 100%;
+    width: 100%;
     height: 318px;
     display: none;
     background-color: #ffffff;
@@ -639,7 +639,7 @@ text-align: justify;
 #applybuttonmain {
     background-color: #5019c7;
     height: 6.5vh;
-    max-width: 13vw;
+    width: 13vw;
     z-index: 9999;
     border-radius: 50px;
     position: fixed;

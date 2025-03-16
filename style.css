@@ -779,7 +779,7 @@ text-align: justify;
 }
 }
 #pg2text{
-width: 90%;
+min-width: 90%;
 margin-top: -1px;
 font-family: 'Nunito Sans',sans-serif;
 font-size: 14px;

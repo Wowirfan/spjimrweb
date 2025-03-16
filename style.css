@@ -761,7 +761,7 @@ text-align: justify;
     display: flex;
     flex-direction: column;
 
-    justify-content: ;
+    justify-content: space-evenly;
     align-items: center;
 
     padding-top: 128px;

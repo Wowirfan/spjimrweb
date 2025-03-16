@@ -619,7 +619,7 @@ text-align: justify;
     margin-top: 1.9rem;
     margin-left: 33%;
     z-index: 99999;
-    background-color: #e66a18;
+    /* background-color: #e66a18; */
 }
 #pg1bnrimg{
     width: 100%;

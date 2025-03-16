@@ -540,7 +540,7 @@ text-align: justify;
 }
 #noone{
     height: 100%;
-    max-width: 18%;
+    width: 18%;
     /* background-color: #f58220; */
     /* margin-top: 5%; */
     text-align: center;
@@ -552,13 +552,13 @@ text-align: justify;
 }
 #valueline{
     height: 50%;
-    max-width: .1px;
+    width: .1px;
     margin-bottom: 40px;
     background-color: #a49fa1;
 }
 #top-rank{
     height: 15vh;
-    max-width: 100%;
+    width: 100%;
 }
 #bodytxt{
     text-align: center;

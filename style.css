@@ -412,7 +412,7 @@ align-items: center;
 }
 #pg2text{
 width: 40%;
-padding-top: 0;
+padding-top: ;
 font-family: 'Nunito Sans',sans-serif;
 font-size:  26px;
 /* position: relative; */
@@ -674,14 +674,14 @@ text-align: justify;
     width: 94%;
     max-width: 500px;
     background-color:#8E60BF;
-    margin-top: 15vh;
+    margin-top: 3vh;
     z-index: 999;
     position: absolute;
-    margin-left: -500%;
+    margin-left: 3%;
     /* margin-top: 50rem; */
     align-items: center;
     justify-content: center;
-}    
+}
 
 #float-left{
     width: 0%;

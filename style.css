@@ -578,13 +578,13 @@ text-align: justify;
 @media (max-width: 440px) {
     #nav{
         height: 100px;
-        width: 95%;
+        width: 100%;
         display: flex;
         position: fixed;
         z-index: 9999;
         padding-left: 3%;
         justify-content: start;
-        background-color:rgb(160, 91, 91);
+        background-color:white;
 }
 #logo {
     /* align-items: start; */

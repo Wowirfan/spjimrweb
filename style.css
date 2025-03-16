@@ -419,7 +419,7 @@ background-color: #F58220;
 text-align: justify;
 }
 #pg2text p{
-    width: 100px;
+    width: px;
     margin-top: 5vh;
     font-family: 'Nunito Sans',sans-serif;
     font-size: 14px;
@@ -745,7 +745,7 @@ text-align: justify;
     
 }
 #page2{
-    min-height: 200vh;
+    height: 80vh;
     width: 100%;
 
     background-color: #ECECEC;

@@ -845,4 +845,9 @@ text-align: justify;
         
         margin-left: 0vw;
     }
+    #top-rank{
+        height: 58vh;
+        margin-top: -70px;
+        /* background-color: #e06fab; */
+    }
 }

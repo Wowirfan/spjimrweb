@@ -758,7 +758,8 @@ text-align: justify;
     height: 120vh;
     width: 100%;
     display: flex;
-    flex
+    flex-direction: column;
+    justify-content: center;
 
     padding-top: 128px;
 

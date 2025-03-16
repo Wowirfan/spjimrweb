@@ -402,11 +402,11 @@ align-items: center;
 }
 #sqimg{
     height: 52.5%;
-    max-width: 34.158%;
+    width: 34.158%;
     /* background-color: brown;  */
 }
 #pg2text{
-max-width: 100%;
+width: 100%;
 margin-top: 5vh;
 font-family: 'Nunito Sans',sans-serif;
 font-size: 14px;

@@ -629,7 +629,7 @@ text-align: justify;
     z-index: 99;
     position: relative;
     height: 15rem;
-    width: %;
+    width: 90%;
     display: flex;
     /* justify-content: center; */
     align-items: center;

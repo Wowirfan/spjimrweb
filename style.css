@@ -583,7 +583,7 @@ text-align: justify;
         display: flex;
         position: fixed;
         z-index: 9999;
-        pad
+        padding-left: 3%;
         justify-content: start;
         background-color:white;
 }

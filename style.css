@@ -762,7 +762,7 @@ text-align: justify;
     flex-direction: column;
 
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
 
     padding-top: 128px;
 

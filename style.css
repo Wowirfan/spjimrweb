@@ -417,7 +417,7 @@ text-align: justify;
 }
 #qcircle{
     height: 26vh;
-    max-width: 12vw;
+    width: 12vw;
     position: absolute;
     background-color: #e66a18;
     /* position: fixed; */

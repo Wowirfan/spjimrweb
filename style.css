@@ -618,7 +618,8 @@ text-align: justify;
     margin-top: 1.9rem;
     margin-left: 33%;
     z-index: 99999;
-    display: ;
+    display: flex;
+    
     /* background-color: #e66a18; */
 }
 #navmenu i{

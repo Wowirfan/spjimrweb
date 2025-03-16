@@ -419,19 +419,7 @@ background-color: #F58220;
 /* font-weight: 10; */
 text-align: justify;
 }
-#pg2text p{
-    width: 100%;
-    margin-top: 5vh;
-    font-family: 'Nunito Sans',sans-serif;
-    font-size: 14px;
-    position: relative;
-    
-    background-color: #F58220;
-    /* position: relative; */
-    /* margin-right: 100px; */
-    /* font-weight: 10; */
-    text-align: justify;
-    }
+
 #qcircle{
     height: 26vh;
     width: 12vw;

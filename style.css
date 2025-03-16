@@ -863,4 +863,14 @@ text-align: justify;
         /* background-color: #F58220; */
     
     }
+    #page2hdr{
+        margin-left: 40%;
+        padding-top: 3%;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        height: 20vh;
+        width: 20%;
+        /* background-color: #F58220; */
+    }
 }

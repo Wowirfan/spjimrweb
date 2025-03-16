@@ -411,8 +411,8 @@ align-items: center;
     /* background-color: brown;  */
 }
 #pg2text{
-width: 20%;
-padding-top: 13%;
+width: 40%;
+padding-top: 0;
 font-family: 'Nunito Sans',sans-serif;
 font-size:  26px;
 /* position: relative; */

@@ -758,7 +758,7 @@ text-align: justify;
 #page1{
     height: 120vh;
     width: 100%;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;

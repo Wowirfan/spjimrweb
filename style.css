@@ -301,7 +301,7 @@ button {
     cursor: pointer;
 }
 #frm{
-    max-width: 20%;
+    width: 20%;
     border-radius: 2px;
     background-color: #FFFFFF;
     border: none;
@@ -309,7 +309,7 @@ button {
     margin-right: 3px;
 }
 #float-left{
-    max-width: 30%;
+    width: 30%;
     padding-top: 7%;
     margin-left: 4%;
     height: 100%;
@@ -324,18 +324,18 @@ button {
     /* text-align: center; */
 }
 #float-headerh2{
-    max-width: 100%;
+    width: 100%;
     /* background-color: #e06fab; */
 }
 #float-header{
-    max-width: 100%;
+    width: 100%;
 
 }
 #float-header h2{
     /* font-size: 50px; */
     color: rgb(240, 246, 244);
     font-size: 28.8px;
-    max-width: 50%;
+    width: 50%;
     font-family: 'loral',serif;
 }
 #float-headerh2 h2{

@@ -385,7 +385,8 @@ button {
     /* flex-direction: column; */
     height:80vh;
     margin-top: 10vh;
-    margin-left: 10;
+    margin-left: 10%;
+    margin-right: ;
     justify-content: space-evenly;
     width: 100%;
 }

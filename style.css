@@ -26,51 +26,106 @@ body{
     font-size: 18px;
     border: none;
     cursor: pointer;
+    display: none;
     font-weight: bold;
 }
+.animated {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 #nav{
+    transition: transform 0.7s ease-in-out;
     height: 128.39px;
     width: 100%;
     position: fixed;
+    align-items: center;
+    justify-content: center;
     z-index: 9999;
     background-color:white;
     
-   
-    display: flex;
+    
+    display: flex; 
     justify-content: space-evenly;
-    /* background-color: lightblue; */
+    /* background-color: rgb(222, 30, 123); */
 }
-/* #nav img {
-/* padding-left: 5%; */
+.nav-hide {
+    transform: translateY(-150%);
+}
+
+/* Animate navbar when it comes back */
+.nav-show {
+    transform: translateY(0);
+}
+.nav-small {
+    height: 80px !important;/* Half Height */
+    /* top: 0;  Neeche aayega */
+}
+
+/* Navbar ke content ka margin adjust hoga */
+.nav-small #navbar-nav {
+    margin-bottom: 50px !important;
+}
 
 
+/* Neeche se animate hoke aane ka effect */
+.nav-visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+#nav #logo {
+padding-left: 0%;
+height: 95px;
+width: 250px;
+}
 
- */
+
 #logo {
     align-items: center;
-    margin-top: 15px;
+    margin-top: 0px;
     height: 94.95px;
 width: 250px;
+transition: width 0.0003s ease-out;
     margin-left: 20px;
     display: block;
+    
     justify-content: center;
 }
  
-#logo-right {
-    height: 55.31px;
-    width: 425;
-    margin-left: 360px;
+  #logo-right {
+    height: 65.31px;
+    width: 425px;
+    margin-left: 350px;
     margin-top: 10px;
+    
+        transition: opacity .00000001s ease-in-out, transform 0.2s ease-in-out;
+    
+    
+    
+    /* background-color: #e66a18; */
     /* width: 100%; */
     display: block;
 }
+.hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
 
 
 .navbar-nav{
     display: flex;
     gap: 11px;
-    margin-top: 20px;
+    transition: margin-bottom 0.00003s ease-in-out;
+    margin-top: 15px;
+    /* margin-bottom: 10px; */
 
 }
 .nav-item a{
@@ -112,23 +167,30 @@ width: 250px;
     background-color: #531F75;
     z-index: 99;
     position: relative;
-    height: 42vh;
+    height: 42.8vh;
     width: 85%;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    margin-left: 90px;
+    margin-left: 119px;
     margin-top: -90px;
 }
+/* float ke andar ke elements ke liye animation */
+#float  {
+    opacity: 1; /* Pehle hidden rahega */
+    transform: translateY(50px); /* 50px niche se start hoga */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
 #form{
-    height: 65vh;
-    width: 24vw;
+    height: 72vh;
+    width: 26vw;
     background-color:#8E60BF;
-    margin-top: -68vh;
+    margin-top: -76.7vh;
     z-index: 999;
     position: absolute;
     text-align: center;
-    margin-left: 64vw;
+    margin-left: 65vw;
     align-items: center;
     justify-content: center;
 }
@@ -270,6 +332,7 @@ width: 250px;
     display: flex;
     height: 40px;
     color: #FFFFFF;
+    margin-top: 10px;
     font-size: 14px;
     /* background-color: aqua; */
     width: 92%;
@@ -281,7 +344,8 @@ width: 250px;
     font-size: 5px;
     height: 18px;
     width: 5%;
-    margin-right: 5%;
+    margin-top: -0.5%;
+    margin-right: 2%;
    
 }
 
@@ -583,7 +647,7 @@ text-align: justify;
         position: fixed;
         z-index: 9999;
         padding-left: 3%;
-        justify-content: space-between;
+        justify-content: start;
         background-color:white;
 }
 #logo {
@@ -616,11 +680,26 @@ text-align: justify;
     height: 2.5rem;
     width: 3.4rem;
     margin-top: 2.5rem;
-    margin-left: 18%;
+    margin-left:20%;
     z-index: 99999;
+    border: 2px solid gray;
+    position: relative;
     display: flex;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
     flex-direction: column;
     /* background-color: #e66a18; */
+}
+#menuBtn{
+    /* background-color: #007bff; */
+    color: rgb(134, 122, 122);
+    border: none;
+    /* padding: 10px 20px; */
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 16px;
 }
 #navmenu i{
     font-size: xx-large;
@@ -657,15 +736,15 @@ text-align: justify;
 #applybuttonmain {
     background-color: #5019c7;
     height: 6.5vh;
-    width: 13vw;
+    width: 96%;
     z-index: 9999;
     border-radius: 50px;
     position: fixed;
-    margin-top: 42%;
-    margin-left: 10%;
+    margin-top: 182%;
+    margin-left: 2%;
     color: white;
     display: none;
-    font-size: 18px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -756,8 +835,8 @@ margin-top: 10%;
 }
 #toprkheader{
     text-align: center;
-    font-size: 20.8px;
-    font-weight: 600;
+    font-size: 25.8px;
+    font-weight: 800;
     font-family: 'Nunito Sans',sans-serif;
     color: #531F75;
 
@@ -875,4 +954,45 @@ margin-top: -35%;
         width: 100%;
         /* background-color: #F58220; */
     }
+    #check input {
+        font-size: 5px;
+        height: 18px;
+        width: 5%;
+        margin-top: -6%;
+        margin-left: 0%;
+       
+    }
+    #check{
+        margin-top: 15px;
+text-align: justify;    }
+/* Navmenu basic styling */
+
+/* Menu button styling */
+
+/* Dropdown menu (hidden by default) */
+#navbar-nav {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 150px;
+    display: none; /* Initially hidden */
+}
+
+#nav-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#nav-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Show dropdown when active */
+.show {
+    display: block !important;
+}
+
 }

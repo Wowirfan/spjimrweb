@@ -583,7 +583,7 @@ text-align: justify;
         position: fixed;
         z-index: 9999;
         padding-left: 3%;
-        justify-content: start;
+        justify-content: space-between;
         background-color:white;
 }
 #logo {

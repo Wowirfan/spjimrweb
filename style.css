@@ -998,7 +998,7 @@ text-align: justify;    }
 #appdate h4{
     font-size: 27px;
     font-family: 'Nunito Sans',sans-serif;
-    color: #F58220;
+    color: #F58220 !important;
 }
 
 }

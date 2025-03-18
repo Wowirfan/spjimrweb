@@ -647,7 +647,8 @@ text-align: justify;
         position: fixed;
         z-index: 9999;
         padding-left: 3%;
-        justify-content: start;
+        padding-right: 3.5%;
+        justify-content: space-between;
         background-color:white;
 }
 #logo {
@@ -679,8 +680,8 @@ text-align: justify;
 #navmenu{
     height: 2.5rem;
     width: 3.4rem;
-    margin-top: 2.5rem;
-    margin-left:20%;
+    margin-top: 2rem;
+    margin-left:0%;
     z-index: 99999;
     border: 2px solid gray;
     position: relative;
@@ -877,14 +878,14 @@ margin-top: 10%;
 
 #pg2text{
 min-width: 90%;
-margin-top: -20px;
+/* margin-top: 20px; */
 font-family: 'Nunito Sans',sans-serif;
 font-size: 14px;
 /* position: relative; */
 margin-left: 5%;
 /* font-weight: 10; */
 text-align: justify;
-margin-top: -35%;
+margin-top: -13%;
 }
 
 #pg2img{
